@@ -378,6 +378,16 @@ img {
   color: var(--accent-color);
 }
 
+.modal-form-icon {
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  fill: #212121;
+  transition: fill 250ms var(--timing-function);
+}
+
 /* .modal-form-policy:checked + .modal--form-policy-text::before {
   background-color: var(--accent-color);
   border: 4px solid #fff;
