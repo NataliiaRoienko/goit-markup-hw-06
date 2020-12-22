@@ -286,6 +286,12 @@ img {
   background-color: var(--white-color);
 }
 
+.close-btn:hover,
+.close-btn:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
 .modal-form {
   display: flex;
   flex-direction: column;
