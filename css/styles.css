@@ -867,13 +867,13 @@ img {
 .footer-form-btn {
   display: flex;
   align-items: center;
-  padding: 10px 28px 10px 29px;
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
+  padding: 10px 28px;
+  min-width: 200px;
+  min-height: 50px;
+  margin-right: auto;
 
   background: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  border: none;
   border-radius: 4px;
 
   font-family: var(--main-font);
@@ -887,12 +887,12 @@ img {
 
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .icon-send {
   margin-left: 10px;
+  fill: var(--white-color);
 }
 
 /* ========== END FOOTER ========== */
