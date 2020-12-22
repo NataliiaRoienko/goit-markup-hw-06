@@ -1,1 +1,1 @@
-https://nataliiaroienko.github.io/goit-markup-hw-05/index.html
+https://nataliiaroienko.github.io/goit-markup-hw-06/index.html
